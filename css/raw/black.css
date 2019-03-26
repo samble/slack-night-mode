@@ -1401,6 +1401,10 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .p-message_pane__unread_banner__banner { background: #545454; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
+.p-threads_view .c-virtual_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
+
+.c-virtual_list__scroll_container, .c-virtual_list__scroll_container > .c-message__sender a { color: #1d1c1d; }
+
 .messages_banner { color: #e6e6e6; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
 .messages_banner a { color: #e6e6e6; }
