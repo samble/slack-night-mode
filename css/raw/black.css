@@ -440,6 +440,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .ql-container.texty_single_line_input.focus, .ql-container.texty_single_line_input:hover { border-color: #363636; box-shadow: 0 0 7px rgba(0, 0, 0, 0.15); }
 
+.message_input_field { background: #545454; border-color: #424242; color: #e6e6e6; }
+
 .c-input_select { background: #545454; border-color: #363636; color: #e6e6e6; }
 
 .p-file_list__file_type_select .c-input_select__selected_value--placeholder { color: #e6e6e6; }
@@ -940,6 +942,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .c-message__body--tombstone { color: #949494; }
 
+.c-message_kit__text { color: #e6e6e6; }
+
 .c-message__label { color: #949494; }
 
 .c-message__label__highlight_title { color: #e6e6e6; }
@@ -1389,7 +1393,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .inline_color_block { border-color: #545454; }
 
-.p-threads_view .c-virtual_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
+.p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border-bottom: 1px solid #222; }
 
@@ -1402,6 +1406,10 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 .p-message_pane__unread_banner__banner { background: #545454; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
 .c-virtual_list__scroll_container, .c-virtual_list__scroll_container > .c-message__sender a { color: #1d1c1d; }
+
+.p-threads_view .c-virtual_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
+
+.p-threads_view .p-threads_view__default_background { background: #1d1c1d; }
 
 .messages_banner { color: #e6e6e6; text-shadow: 0 1px rgba(0, 0, 0, 0.15); }
 
