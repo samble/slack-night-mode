@@ -1389,7 +1389,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 .inline_color_block { border-color: #545454; }
 
-.p-threads_view .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
+.p-threads_view .c-virtual_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #222; }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider::before { background: #222; border-bottom: 1px solid #222; }
 
